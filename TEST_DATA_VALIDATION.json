@@ -1,0 +1,165 @@
+{
+  "climate": {
+    "reference": {
+      "temperature.nc": {
+        "variable": "tas",
+        "shape": [
+          3653,
+          17,
+          16
+        ],
+        "units": "K",
+        "standard_name": "air_temperature",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 3653,
+        "coordinates_match_period": true
+      },
+      "precipitation.nc": {
+        "variable": "pr",
+        "shape": [
+          3653,
+          17,
+          16
+        ],
+        "units": "kg m-2 s-1",
+        "standard_name": "precipitation_flux",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 3653,
+        "coordinates_match_period": true
+      },
+      "specific_humidity.nc": {
+        "variable": "huss",
+        "shape": [
+          3653,
+          17,
+          16
+        ],
+        "units": "1",
+        "standard_name": "specific_humidity",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 3653,
+        "coordinates_match_period": true
+      },
+      "pressure_msl.nc": {
+        "variable": "psl",
+        "shape": [
+          3653,
+          17,
+          16
+        ],
+        "units": "Pa",
+        "standard_name": "air_pressure_at_mean_sea_level",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 3653,
+        "coordinates_match_period": true
+      }
+    },
+    "projection": {
+      "temperature.nc": {
+        "variable": "tas",
+        "shape": [
+          2557,
+          17,
+          16
+        ],
+        "units": "K",
+        "standard_name": "air_temperature",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 2557,
+        "coordinates_match_period": true
+      },
+      "precipitation.nc": {
+        "variable": "pr",
+        "shape": [
+          2557,
+          17,
+          16
+        ],
+        "units": "kg m-2 s-1",
+        "standard_name": "precipitation_flux",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 2557,
+        "coordinates_match_period": true
+      },
+      "specific_humidity.nc": {
+        "variable": "huss",
+        "shape": [
+          2557,
+          17,
+          16
+        ],
+        "units": "1",
+        "standard_name": "specific_humidity",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 2557,
+        "coordinates_match_period": true
+      },
+      "pressure_msl.nc": {
+        "variable": "psl",
+        "shape": [
+          2557,
+          17,
+          16
+        ],
+        "units": "Pa",
+        "standard_name": "air_pressure_at_mean_sea_level",
+        "lat_size": 17,
+        "lon_size": 16,
+        "time_size": 2557,
+        "coordinates_match_period": true
+      }
+    }
+  },
+  "spatial": {
+    "India_LULC.tif": {
+      "crs": "EPSG:4326",
+      "width": 2788,
+      "height": 2906,
+      "bounds": [
+        68.34958973962472,
+        7.988767081234592,
+        96.22958973962471,
+        37.048767081234594
+      ],
+      "dtype": "uint8",
+      "nodata": 0.0
+    },
+    "India_Admin2.shp": {
+      "crs": "EPSG:4326",
+      "features": 36,
+      "bounds": [
+        68.09347709896305,
+        6.75436793493344,
+        97.41149826167937,
+        37.07761064660468
+      ],
+      "fields": [
+        "ST_NM"
+      ]
+    }
+  },
+  "sha256": {
+    "data/README.md": "b0b484a551d0c8cf57c411e8d049ad175fafd4d13f7fdac7551a1ea5e1b55bf0",
+    "data/example_climate/projection/precipitation.nc": "a9271a16238bd94b071c4c61e9ff54a232b5622a8aa3908f0f3146f452e3995f",
+    "data/example_climate/projection/pressure_msl.nc": "473dc79789cff4ab53eca0fda47e4dbff0bfd2dd1ccaa616aba87843f27dfbb9",
+    "data/example_climate/projection/specific_humidity.nc": "c1a86bd16d90fbea31ccc5d2bb7e1f8c1fa6c0b781691240b6047b2e8ffe3991",
+    "data/example_climate/projection/temperature.nc": "61bc5afb1fd4c119c2a8ef248149051125ae4614262d88c7aae87a0034800372",
+    "data/example_climate/reference/precipitation.nc": "0aa2e687f0036b01f7c24ad83ab9a61fd389a5676bfa1cb88ce95818a1805266",
+    "data/example_climate/reference/pressure_msl.nc": "c094749bc28e0231509ac01fe9f50c1a38497bbb70c23fb919379076ace5bb0f",
+    "data/example_climate/reference/specific_humidity.nc": "f24690d933108481c8af4375a7b4773649fc347ed099dc32e79d3952cdb0c59d",
+    "data/example_climate/reference/temperature.nc": "397d3d188c47c4ea45cbc4daa017a280dfc499fd6eea3077d6ab79d90c786ded",
+    "data/example_spatial/Admin2/India_Admin2.cpg": "3ad3031f5503a4404af825262ee8232cc04d4ea6683d42c5dd0a2f2a27ac9824",
+    "data/example_spatial/Admin2/India_Admin2.dbf": "4ec2f9b83263c85781bc9abf0d281d441b5e02377be124bda6b5d87bd9dc4ccd",
+    "data/example_spatial/Admin2/India_Admin2.prj": "a02a27b1d1982c8516d83398e85a3c8b1aef1713c13ef4d84d7bde17430c07c4",
+    "data/example_spatial/Admin2/India_Admin2.shp": "b61ebc11a7487ce1c340d55fc9d0c1a2b63af1f73191fef691c11693c726130d",
+    "data/example_spatial/Admin2/India_Admin2.shx": "dc428a44ed20384b02c3c5971f2b200b15d429923b6cc770cae940d0af21016a",
+    "data/example_spatial/India_LULC.tif": "41353246f5c8041ef4417f3e636bce21916e60a28be379b6d63845ae1733af98"
+  }
+}
