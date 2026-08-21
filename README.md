@@ -3,7 +3,6 @@
 **CliMed** is a climate-informed mechanistic modelling framework for Aedes-borne dengue-risk analysis. This public repository is limited to the **Runs 1–3 release** and provides public documentation, test data and release information. The proprietary implementation is distributed only in compiled form.
 
 ## Public release scope
-
 The Runs 1–3 release supports:
 
 - climate-input preparation and automatic variable/coordinate detection;
