@@ -1,5 +1,18 @@
 # CliMed
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22037325.svg)](https://doi.org/10.5281/zenodo.22037325)
+## Download CliMed
+
+### Windows — Recommended
+
+[**Download CliMed v1.0.0 Complete Public Package (ZIP)**](https://github.com/pshari19/CliMed/releases/download/v1.0.0/CliMed_v1.0.0_Complete_Public_Package.zip)
+
+This package contains the CliMed Windows application, signed runtime licence, public configuration, documentation and example test data.
+
+1. Download and extract the ZIP.
+2. Keep the supplied application, `license.lic` and `run_config_public.json` together.
+3. Start `CliMed_v1.0.0_Windows_x64.exe`.
+
+> **Note:** GitHub's **Code → Download ZIP** downloads the repository files only. For the ready-to-run Windows software and example data, use the **Complete Public Package** above.
 **CliMed** is a climate-informed mechanistic modelling framework for Aedes-borne dengue-risk analysis. This public repository is limited to the **Runs 1–3 release** and provides public documentation, test data and release information. The proprietary implementation is distributed only in compiled form.
 
 ## Public release scope
