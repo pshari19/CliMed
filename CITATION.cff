@@ -9,12 +9,18 @@ title: "CliMed: Climate-Informed Mechanistic Modelling Framework for Dengue Risk
 type: software
 
 authors:
-  - family-names: "Prasad"
-    given-names: "Peri Subrahmanya Hari"
+  - family-names: "Peri"
+    given-names: "Subrahmanya Hari Prasad"
+    affiliation: "Centre for Oceans, Rivers, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, India"
+
+  - family-names: "Satyanarayana"
+    given-names: "A. N. V."
     affiliation: "Centre for Oceans, Rivers, Atmosphere and Land Sciences (CORAL), Indian Institute of Technology Kharagpur, India"
 
 version: "1.0.0"
 date-released: "2026-08-20"
+
+doi: "10.5281/zenodo.22037324"
 
 repository-code: "https://github.com/pshari19/CliMed"
 url: "https://github.com/pshari19/CliMed"
@@ -27,10 +33,10 @@ abstract: >
   with biologically based mosquito-host transmission processes and produces
   mechanistic indicators including entomological inoculation rate (EIR),
   force of infection (FOI), infection probability, vector-to-host ratio
-  and infectious-vector fraction. CliMed was developed by Dr. Peri
-  Subrahmanya Hari Prasad under the academic guidance and supervision of
-  Prof. A. N. V. Satyanarayana, Centre for Oceans, Rivers, Atmosphere and
-  Land Sciences (CORAL), Indian Institute of Technology Kharagpur, India.
+  and infectious-vector fraction. CliMed was developed by Dr. Subrahmanya
+  Hari Prasad Peri with Prof. A. N. V. Satyanarayana, Centre for Oceans,
+  Rivers, Atmosphere and Land Sciences (CORAL), Indian Institute of
+  Technology Kharagpur, India.
 
 keywords:
   - "CliMed"
