@@ -1,5 +1,5 @@
 # CliMed
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22037324.svg)](https://doi.org/10.5281/zenodo.22037324)
 **CliMed** is a climate-informed mechanistic modelling framework for Aedes-borne dengue-risk analysis. This public repository is limited to the **Runs 1–3 release** and provides public documentation, test data and release information. The proprietary implementation is distributed only in compiled form.
 
 ## Public release scope
@@ -38,4 +38,10 @@ The supplied application runtime licence is cryptographically signed and valid t
 
 ## Citation
 
-Citation metadata are provided in `CITATION.cff`.
+If you use CliMed in research, publications, reports or presentations, please cite:
+
+**Peri, Subrahmanya Hari Prasad & Satyanarayana, A. N. V. (2026).  
+CliMed: Climate-Informed Mechanistic Modelling Framework for Dengue Risk (Version 1.0.0). Zenodo.  
+https://doi.org/10.5281/zenodo.22037324**
+
+Citation metadata are also available in `CITATION.cff`.
